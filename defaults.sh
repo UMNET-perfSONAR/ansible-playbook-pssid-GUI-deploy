@@ -1,6 +1,11 @@
 #!/bin/bash
 
-directory = "inventory"
+if [ "$1" == "" ]; then
+  directory="inventory"
+else
+  directory=$1
+fi
+
 host_group = "pssid-gui-controller"
 deploy_role_name = "ansible-role-pssid-GUI-install-configure"
 
