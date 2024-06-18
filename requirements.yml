@@ -1,4 +1,4 @@
 - src: https://github.com/UMNET-perfSONAR/ansible-role-pssid-GUI-install-configure.git
   scm: git
-  version: init-dev
+  version: main
   name: ansible-role-pssid-GUI-install-configure

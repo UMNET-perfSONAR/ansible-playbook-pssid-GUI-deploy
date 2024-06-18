@@ -1,6 +1,4 @@
----
 - name: Setup Docker container with docker-compose
   hosts: pssid-gui-controller
-  become: yes
   roles:
     - role: ansible-role-pssid-GUI-install-configure
