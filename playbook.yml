@@ -2,3 +2,5 @@
   hosts: pssid-gui-controller
   roles:
     - role: ansible-role-pssid-GUI-install-configure
+    # add another role here
+    - role: ansible-role-pssid-probe-provisioning-scripts

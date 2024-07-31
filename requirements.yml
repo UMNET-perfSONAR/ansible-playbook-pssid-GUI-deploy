@@ -2,3 +2,9 @@
   scm: git
   version: main
   name: ansible-role-pssid-GUI-install-configure
+
+# add other role here
+- src: https://github.com/UMNET-perfSONAR/ansible-role-pssid-probe-provisioning-scripts.git
+  scm: git
+  version: main
+  name: ansible-role-pssid-probe-provisioning-scripts
