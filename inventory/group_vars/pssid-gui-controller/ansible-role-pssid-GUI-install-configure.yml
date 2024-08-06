@@ -1,0 +1,4 @@
+# defaults file for pssid_deploy
+
+# Default installation path - only contains a docker-compose file.
+pssid_gui_install_configure_install_path: "/usr/lib/pssid"

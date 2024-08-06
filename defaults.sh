@@ -6,13 +6,13 @@ else
   directory=$1
 fi
 
-host_group = "pssid-gui-controller"
-deploy_role_name = "ansible-role-pssid-GUI-install-configure"
+host_group="pssid-gui-controller"
+deploy_role_name="ansible-role-pssid-GUI-install-configure"
 
 # add_provision_role_name
-provision_role_name = "ansible-role-pssid-probe-provisioning-scripts"
+provision_role_name="ansible-role-pssid-probe-provisioning-scripts"
 
-mkdir -p ${directory}/group_vars
+mkdir -p ${directory}/group_vars/${host_group}
 
 # if ! [ -f ${directory}/group_vars/${host_group}/${deploy_role_name}.yml ]; then
 #     cp roles/${deploy_role_name}/defaults/main.yml \

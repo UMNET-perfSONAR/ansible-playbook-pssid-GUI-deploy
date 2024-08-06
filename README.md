@@ -12,9 +12,12 @@ Install the required roles:
 ```
 ansible-galaxy install -r requirements.yml
 ```
-Set up variables by running the `defaults.sh` script and editing them:
+Set up variables by running the `defaults.sh` script.
 ```
-./defaults.sh
+sh defaults.sh
+```
+Optionally edit the variables:
+```
 vi inventory/group_vars/pssid-gui-controller/ansible-role-pssid-GUI-install-configure.yml
 ```
 Set up the inventory and optionally add connection variables:
